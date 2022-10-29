@@ -1,7 +1,7 @@
 function share(){
     var shareData={
         title:document.title,
-        text:'your title here',
+        text:'your text here',
         url:document.location.href
     }
     if(navigator.canShare(shareData)){
