@@ -1,6 +1,8 @@
 function share(){
     var shareData={
-        url:'https://www.youtube.com/channel/UCUyDEO4Nkjba5qn6RmpBrOA'
+        title:document.title,
+        text:'your title here',
+        url:document.location.href
     }
     if(navigator.canShare(shareData)){
         navigator.share(shareData);
