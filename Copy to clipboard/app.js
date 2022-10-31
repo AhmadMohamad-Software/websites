@@ -12,5 +12,5 @@ alert("تم نسخ النص بنجاح");
 
 function copy2(txt){
   navigator.clipboard.writeText(txt);
-  alert(" 5 تم نسخ النص بنجاح");
+  alert("تم نسخ النص بنجاح");
 }
