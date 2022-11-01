@@ -1,0 +1,28 @@
+html{
+    scroll-behavior: smooth;
+}
+.GoToTopButton{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    background-color: royalblue;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 150px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.GoToTopButton:hover i{
+    transform: translateY(3px);
+}
+.GoToTopButton:active{
+    transform: translateY(6px);
+}
+.GoToTopButton i{
+    color: white;
+    font-size: 20px;
+    transition: 0.2s;
+}
